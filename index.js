@@ -38,7 +38,7 @@
 
             // Construct the URL, handles base URL & path or absolute URLs
             let requestURL = null;
-            let path = url.startsWith( '/' ) ? url : `/${url}`;
+            let path = url.startsWith( '/' ) ? url : "/+" + url;
 
             if ( url.startsWith( 'http' ) || url.startsWith( 'https' ) ) {
                 requestURL = new URL( url );
@@ -140,7 +140,7 @@
         }
 
         if ( pipeline !== 'before' && pipeline !== 'after' ) {
-            return new Error( `invalid pipeline "${pipeline}"` );
+            return new Error( 'Valid pipeline values are "before" or "after"' );
         }
 
         this.options.middleware[ pipeline ].push( func );
