@@ -38,7 +38,7 @@
 
             // Construct the URL, handles base URL & path or absolute URLs
             let requestURL = null;
-            let path = url.startsWith( '/' ) ? url : "/+" + url;
+            let path = url.startsWith( '/' ) ? url : '/+' + url;
 
             if ( url.startsWith( 'http' ) || url.startsWith( 'https' ) ) {
                 requestURL = new URL( url );
