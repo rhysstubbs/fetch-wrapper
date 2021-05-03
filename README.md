@@ -82,7 +82,7 @@ const response = await http.get( '/example/endpoint' );
 Using npm:
 
 ```bash
-$ npm install fetch-wrapper
+$ npm install fetch-js-wrapper
 ```
 
 ## Running the tests

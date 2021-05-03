@@ -1,7 +1,7 @@
 {
-  "name": "fetch-wrapper",
+  "name": "fetch-js-wrapper",
   "version": "0.1.0",
-  "description": "fetch-wrapper was designed to be used as a lightweight, drop-in replacement for axios when using the native Fetch API",
+  "description": "fetch-js-wrapper was designed to be used as a lightweight, drop-in replacement for axios when using the native Fetch API",
   "main": "index.js",
   "repository": {
     "type": "git",
