@@ -1,0 +1,171 @@
+{
+	"root": true,
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+        "parser": "babel-eslint",
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+	},
+	"extends": [ 
+		"eslint:recommended"
+	],
+	"rules": {
+		"no-undef": "off",
+		"no-prototype-builtins": "off",
+		"no-useless-escape": "off",
+		"no-empty": "off",
+		"camelcase": "off",
+		"no-redeclare":"off",
+		"new-cap":"off",
+		"no-control-regex": 0,
+		"array-bracket-spacing": [
+			"error",
+			"always"
+		],
+		"block-spacing": [
+			"error",
+			"always"
+		],
+		"comma-dangle": [ "error", "never" ],
+		"comma-spacing": [
+			"error",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"comma-style": [
+			"error",
+			"last"
+		],
+		"computed-property-spacing": [
+			"error",
+			"always"
+		],
+		"consistent-this": [
+			"error",
+			"that"
+		],
+		"eol-last": [
+			"error",
+			"always"
+		],
+		"func-call-spacing": [
+			"error",
+			"never"
+		],
+		"indent": [ "error", 4 ],
+		"keyword-spacing": "error",
+		"key-spacing": "error",
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"lines-around-comment": [
+			"error",
+			{
+				"beforeBlockComment": true,
+				"allowObjectStart": true,
+				"allowBlockStart": true,
+				"allowArrayStart": true
+			}
+		],
+		"max-statements-per-line": [
+			"error",
+			{
+				"max": 1
+			}
+		],
+		"new-parens": "error",
+		"no-array-constructor": "error",
+		"no-multiple-empty-lines": [
+			"error",
+			{
+				"max": 1
+			}
+		],
+		"no-nested-ternary": "error",
+		"no-new-object": "error",
+		"no-trailing-spaces": "error",
+		"no-whitespace-before-property": "error",
+		"object-curly-spacing": [
+			"error",
+			"always"
+		],
+		"one-var": [
+			"error",
+			{
+				"initialized": "never"
+			}
+		],
+		"operator-linebreak": [
+			"error",
+			"after"
+		],
+		"padded-blocks": [
+			"error",
+			"never"
+		],
+		"quote-props": [
+			"error",
+			"as-needed",
+			{
+				"unnecessary": false
+			}
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": "error",
+		"semi-spacing": [
+			"error",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"space-before-blocks": [
+			"error",
+			"always"
+		],
+		"space-before-function-paren": [
+			"error",
+			{
+				"anonymous": "never",
+				"named": "never",
+				"asyncArrow": "always"
+			}
+		],
+		"space-infix-ops": "error",
+		"space-in-parens": [
+			"error",
+			"always"
+		],
+		"space-unary-ops": [
+			"error",
+			{
+				"words": true,
+				"nonwords": false
+			}
+		],
+		"spaced-comment": [
+			"error",
+			"always"
+		],
+		"template-tag-spacing": [
+			"error",
+			"never"
+		],
+		"unicode-bom": [
+			"error",
+			"never"
+		],
+		"object-curly-newline": "warn",
+		"object-property-newline": "warn"
+	}
+}
