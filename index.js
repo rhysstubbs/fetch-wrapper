@@ -14,8 +14,8 @@
         this.options = Object.assign( {}, this.optionDefaults, options );
 
         // always prefer base URLs without a trailing /
-        if ( this.options.baseURL.startsWith( '/' ) ) {
-            this.options.baseURL.substr( 0, this.options.baseURL.length - 2 );
+        if ( this.options.baseURL.length > 0 && this.options.baseURL[ this.options.baseURL.length - 1 ] === '/' ) {
+            this.options.baseURL = this.options.baseURL.substr( 0, this.options.baseURL.length - 1 );
         }
     }
 
