@@ -1,6 +1,6 @@
 {
   "name": "fetch-js-wrapper",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "fetch-js-wrapper was designed to be used as a lightweight, drop-in replacement for axios when using the native Fetch API",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,8 @@
     "xhr",
     "http",
     "ajax",
-    "promise"
+    "promise",
+    "es6"
   ],
   "author": "Rhys Stubbs",
   "license": "MIT",

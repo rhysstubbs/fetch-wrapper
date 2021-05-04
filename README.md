@@ -6,12 +6,14 @@
 
 ### Basic
 
-Below are some example usages. This are not complete examples, these are intended to demonstrate how you *could* use the library.
+Below are some example usages. These are not complete examples, these are intended to demonstrate how you *could* use the library.
+
+**For all available options see [options](#options)**
 
 ```js
 // Basic HTTP request
 
-import FetchWrapper from ./index.js;
+import FetchWrapper from './index.js';
 
 const http = new FetchWrapper( {
     baseURL: 'https://api.example.com'
@@ -33,7 +35,7 @@ const something = await response.json();
 ```js
 // Use middleware for JWT authentication
 
-import FetchWrapper from ./index.js;
+import FetchWrapper from './index.js';
 
 const http = new FetchWrapper( {
     baseURL: 'https://api.example.com'
@@ -77,6 +79,23 @@ const response = await http.get( '/example/endpoint' );
 // Do what you need to do
 ```
 
+### Available Options
+
+Below are all of the options available when creating a new instance of `FetchWrapper`. Pass a single object to the constructor.
+
+|  Key | Type  | Default Value | Description  |
+|---            |---        |---    |---
+|  `baseURL`    | String    | ""    |       A URL to prefix all relative requests with. |
+|               |           |       |
+
+**Example of passing options**
+
+```js
+new FetchWrapper( {
+    baseURL: 'https://api.example.com'
+} );
+```
+
 ## Installing
 
 Using npm:
@@ -84,6 +103,10 @@ Using npm:
 ```bash
 $ npm install fetch-js-wrapper
 ```
+
+## Browser Support
+
+Comming soon!
 
 ## Running the tests
 
@@ -99,7 +122,7 @@ Coming soon!
 
 ## Authors
 
-* **Rhys Stubbs** - *Initial work*
+* **[Rhys Stubbs](https://github.com/rhysstubbs)** - *Initial work*
 
 ## License
 
