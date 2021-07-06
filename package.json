@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/rhysstubbs/fetch-wrapper.git"
   },
+  "scripts": {
+    "publish": "webpack --config webpack.config.js --mode production"
+  },
   "keywords": [
     "fetch",
     "fetch-api",
@@ -26,5 +29,16 @@
   "bugs": {
     "url": "https://github.com/rhysstubbs/fetch-wrapper/issues"
   },
-  "homepage": "https://github.com/rhysstubbs/fetch-wrapper#readme"
+  "homepage": "https://github.com/rhysstubbs/fetch-wrapper#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^7.30.0",
+    "eslint-loader": "^4.0.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  }
 }

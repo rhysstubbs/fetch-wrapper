@@ -5,7 +5,7 @@
  * FetchWrapper aims to do as little as possible and assumes all requests are JSON.
  * For additional features/functionality submit an Issue and/or pull-request and it will be considered.
  */
- class FetchWrapper {
+class FetchWrapper {
     /**
      * @param {Object} options - the options to use when creating a new instance of FetchWrapper.
      */
