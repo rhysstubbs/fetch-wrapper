@@ -11,7 +11,7 @@ module.exports = ( ) => {
             path: __dirname,
             filename: 'index.min.js',
             library: 'FetchWrapper',
-            libraryTarget: 'commonjs2'
+            libraryTarget: 'umd'
         },
         module: {
             rules: [

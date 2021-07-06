@@ -1,6 +1,6 @@
 {
   "name": "fetch-js-wrapper",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "fetch-js-wrapper was designed to be used as a lightweight, drop-in replacement for axios when using the native Fetch API",
   "main": "index.js",
   "repository": {
@@ -40,5 +40,11 @@
     "friendly-errors-webpack-plugin": "^1.7.0",
     "webpack": "^5.42.1",
     "webpack-cli": "^4.7.2"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    ">=0.5%",
+    "IE 11",
+    "safari 9"
+  ]
 }
