@@ -106,7 +106,9 @@ $ npm install fetch-js-wrapper
 
 ## Browser Support
 
-Comming soon!
+If you need to support older browsers that do not natively support ES6 (classes, let, const etc.) you can import `index.min.js`, see our `package.json` for browserlist support configuration.
+
+The main bundle comes as-is, i.e. without polyfills, not transpiled or minified in anyway. If you need any of these feature please submit as a feature request or pull request, or feel free to fork the repository and make the changes you require!
 
 ## Running the tests
 
