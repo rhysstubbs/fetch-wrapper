@@ -2,6 +2,12 @@
 
 `fetch-js-wrapper` was designed to be used as a lightweight, drop-in replacement for axios when using the native Fetch API. `fetch-js-wrapper` aims to do as little as possible but provides some of the basic functionality we're used to from libraries such as [axios](https://github.com/axios/axios).
 
+## Installation
+
+```bash
+npm i fetch-js-wrapper
+```
+
 ## Usage
 
 ### Basic
