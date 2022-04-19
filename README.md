@@ -102,14 +102,6 @@ new FetchWrapper( {
 } );
 ```
 
-## Installing
-
-Using npm:
-
-```bash
-$ npm install fetch-js-wrapper
-```
-
 ## Browser Support
 
 If you need to support older browsers that do not natively support ES6 (classes, let, const etc.) you can import `index.min.js`, see our `package.json` for browserlist support configuration.
